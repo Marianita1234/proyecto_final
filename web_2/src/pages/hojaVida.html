@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mariana - Hoja de Vida</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa !important; /* Color de fondo */
+        }
+
+        .navbar {
+            background-color: #a4cbb8 !important; /* Color de la barra de navegación */
+        }
+
+        .card {
+            border: 2px solid #006666 !important; /* Borde de la tarjeta */
+            border-radius: 10px !important; /* Bordes redondeados */
+        }
+
+        .carousel-item img {
+            border: 2px solid #006666 !important; /* Borde alrededor de las imágenes del carrusel */
+            border-radius: 10px !important; /* Bordes redondeados */
+        }
+
+        .list-group-item {
+            background-color: #d9e4dd !important; /* Color de fondo de los elementos de la lista */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="prendas.html">Prendas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Hoja de vida</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="container py-5 text-center">
+        <h1>Mi Hoja de Vida</h1>
+        <h6>Un poco de mi vida</h6>
+    </header>
+
+    <main class="container py-4">
+        <div id="about" class="d-flex justify-content-center">
+            <div class="card mb-3 text-center" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="../img/mariana.jpg" alt="Mi foto" class="img-fluid w-100" style="height: 100%; object-fit: contain;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h4 class="card-title">Sobre mí</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Mariana Dávila Valencia</li>
+                                <li class="list-group-item">07/03/1999</li>
+                                <li class="list-group-item">Soltera</li>
+                                <li class="list-group-item">Calle 66b 41c 26</li>
+                                <li class="list-group-item">maridavila50@hotmail.com</li>
+                            </ul>
+                            <p class="card-text">Soy una mujer de 24 años, madre soltera. Amo los animales, trabajo y estudio. Soy alegre, descomplicada,
+                                amorosa, un poco malgeniada. Vivo con mis padres, mi hija Luciana y mi perrita Luna.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="education">
+            <h4>Educación</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Bachiller</li>
+                <li class="list-group-item">Técnico en Preescolar</li>
+            </ul>
+        </div>
+
+        <div id="experience">
+            <h4>Experiencia Laboral</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Asistente de Preescolar en El Granadino</li>
+                <li class="list-group-item">Maestra Particular</li>
+                <li class="list-group-item">Asesora Comercial en Almacén Seven</li>
+                <li class="list-group-item">Asesora Comercial en Uno27</li>
+                <li class="list-group-item">Asesora Comercial en Digitex (actualmente)</li>
+            </ul>
+        </div>
+
+        <div id="projects">
+            <h2>Proyectos</h2>
+            <div>
+                <h3>Visión</h3>
+                <p>En el futuro me veo como una profesional con mi propia oficina, un buen apartamento, un carro, viajar,
+                    un buen empleo, darle una buena educación a mi hija y tener un jardín de perros.</p>
+            </div>
+            <div>
+                <h3>Misión</h3>
+                <p>Terminar mi carrera, ser la mejor en lo que hago, especializarme cada día más. En mi trabajo, dar lo mejor
+                    de mí y ser una emprendedora.</p>
+            </div>
+        </div>
+
+        <div id="hobbies">
+            <h4>Hobbies</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Salir a caminar</li>
+                <li class="list-group-item">Dormir</li>
+                <li class="list-group-item">Pasar tiempo en familia</li>
+                <li class="list-group-item">Escuchar música</li>
+                <li class="list-group-item">Ver películas con mi hija</li>
+                <li class="list-group-item">Estar con mis amigos</li>
+            </ul>
+        </div>
+
+        <div id="images">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/hija.jpg" class="d-block w-100" alt="Mi hija Luciana" style="height: 400px; object-fit: contain;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/amigos.jpg" class="d-block w-100" alt="Mis amigos" style="height: 400px; object-fit: contain;">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/familia.jpg" class="d-block w-100" alt="Mi familia" style="height: 400px; object-fit: contain;">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div id="contact">
+            <h4>Contacto</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Teléfono: 3001234567</li>
+                <li class="list-group-item">Correo: maridavila50@hotmail.com</li>
+            </ul>
+        </div>
+
+        <div id="favorite-food">
+            <h4>Comida Favorita</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Pizza</li>
+                <li class="list-group-item">Hamburguesa</li>
+                <li class="list-group-item">Pasta</li>
+            </ul>
+        </div>
+
+        <div id="favorite-drink">
+            <h4>Bebida Favorita</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Coca Cola</li>
+                <li class="list-group-item">Jugo de Naranja</li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
